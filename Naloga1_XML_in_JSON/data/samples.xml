@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<samples year="2026">
+    <sample id="SMP-2026-00001">
+        <sampleType>SALIVA</sampleType>
+        <collectionDate>01-01-2026</collectionDate>
+        <recivedDate>08-02-2026</recivedDate>
+        <status>DISPOSED</status>
+    </sample>
+    <sample id="SMP-2026-00002">
+        <sampleType>BLOOD</sampleType>
+        <collectionDate>01-01-2026</collectionDate>
+        <recivedDate>09-02-2026</recivedDate>
+        <status>DISPOSED</status>
+    </sample>
+    <sample id="SMP-2026-00003">
+        <sampleType>TISSUE</sampleType>
+        <collectionDate>02-01-2026</collectionDate>
+        <recivedDate>08-02-2026</recivedDate>
+        <status>DISPOSED</status>
+    </sample>
+    <sample id="SMP-2026-00004">
+        <sampleType>STOOL</sampleType>
+        <collectionDate>02-01-2026</collectionDate>
+        <recivedDate>10-02-2026</recivedDate>
+        <status>DISPOSED</status>
+    </sample>
+    <sample id="SMP-2026-00005">
+        <sampleType>BLOOD</sampleType>
+        <collectionDate>02-01-2026</collectionDate>
+        <recivedDate>10-02-2026</recivedDate>
+        <status>DISPOSED</status>
+    </sample>
+    <sample id="SMP-2026-06071">
+        <sampleType>SALIVA</sampleType>
+        <collectionDate>01-10-2026</collectionDate>
+        <recivedDate>08-10-2026</recivedDate>
+        <status>STORED</status>
+    </sample>
+    <sample id="SMP-2026-06072">
+        <sampleType>BUCCAL_SWAB</sampleType>
+        <collectionDate>03-10-2026</collectionDate>
+        <recivedDate>11-10-2026</recivedDate>
+        <status>REJECTED</status>
+    </sample>
+    <sample id="SMP-2026-06073">
+        <sampleType>TISSUE</sampleType>
+        <collectionDate>04-10-2026</collectionDate>
+        <recivedDate>10-10-2026</recivedDate>
+        <status>ACCEPTED</status>
+    </sample>
+    <sample id="SMP-2026-06074">
+        <sampleType>SALIVA</sampleType>
+        <collectionDate>06-10-2026</collectionDate>
+        <recivedDate>12-10-2026</recivedDate>
+        <status>ACCEPTED</status>
+    </sample>
+    <sample id="SMP-2026-06075">
+        <sampleType>BLOOD</sampleType>
+        <collectionDate>09-10-2026</collectionDate>
+        <recivedDate>10-10-2026</recivedDate>
+        <status>ACCEPTED</status>
+    </sample>
+    <sample id="SMP-2026-06076">
+        <sampleType>STOOL</sampleType>
+        <collectionDate>10-10-2026</collectionDate>
+        <recivedDate>14-10-2026</recivedDate>
+        <status>RECEIVED</status>
+    </sample>
+    <sample id="SMP-2026-06077">
+        <sampleType>TISSUE</sampleType>
+        <collectionDate>10-10-2026</collectionDate>
+        <recivedDate>15-10-2026</recivedDate>
+        <status>RECEIVED</status>
+    </sample>
+    <sample id="SMP-2026-06078">
+        <sampleType>BUCCAL_SWAB</sampleType>
+        <collectionDate>11-10-2026</collectionDate>
+        <recivedDate>16-02-2026</recivedDate>
+        <status>RECEIVED</status>
+    </sample>
+    <sample id="SMP-2026-06079">
+        <sampleType>SALIVA</sampleType>
+        <collectionDate>01-01-2026</collectionDate>
+        <recivedDate></recivedDate>
+        <status>REGISTERED</status>
+    </sample>
+    <sample id="SMP-2026-06089">
+        <sampleType>SALIVA</sampleType>
+        <collectionDate>01-01-2026</collectionDate>
+        <recivedDate>NULL</recivedDate>
+        <status>REGISTERED</status>
+    </sample>
+</samples>

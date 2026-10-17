@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+    <test id="TST-001">
+        <name>Lifestyle DNA Panel</name>
+        <category>GENETIC</category>
+        <description>Analyzes genetic variants associated with nutrition, physical performance, metabolism, and lifestyle traits to provide personalized insights into inherited predispositions.</description>
+        <requiredSampleType>BUCCAL_SWAB</requiredSampleType>
+    </test>
+
+    <test id="TST-002">
+        <name>Health Risk DNA Panel</name>
+        <category>GENETIC</category>
+        <description>Examines selected genetic variants associated with hereditary health conditions and disease susceptibility to identify potential genetic risk factors.</description>
+        <requiredSampleType>BUCCAL_SWAB</requiredSampleType>
+    </test>
+
+    <test id="TST-003">
+        <name>Pharmacogenetics Panel</name>
+        <category>GENETIC</category>
+        <description>Identifies genetic variations that may influence medication metabolism, treatment response, and adverse drug reactions to support personalized prescribing decisions.</description>
+        <requiredSampleType>BUCCAL_SWAB</requiredSampleType>
+    </test>
+
+    <test id="TST-004">
+        <name>Gut Microbiome Analysis</name>
+        <category>MICROBIOME</category>
+        <description>Analyzes the composition and diversity of intestinal microorganisms to provide insights into gut microbial balance and potential digestive health associations.</description>
+        <requiredSampleType>STOOL</requiredSampleType>
+    </test>
+
+    <test id="TST-005">
+        <name>Oral Microbiome Analysis</name>
+        <category>MICROBIOME</category>
+        <description>Profiles microbial communities in the oral cavity to assess bacterial diversity and identify microorganisms associated with oral health conditions.</description>
+        <requiredSampleType>SALIVA</requiredSampleType>
+    </test>
+
+    <test id="TST-006">
+        <name>Targeted DNA PCR Test</name>
+        <category>GENETIC</category>
+        <description>Uses polymerase chain reaction to detect specific DNA sequences or genetic variants in a biological sample with high analytical sensitivity.</description>
+        <requiredSampleType>BUCCAL_SWAB</requiredSampleType>
+    </test>
+
+    <test id="TST-007">
+        <name>Vitamin D Blood Test</name>
+        <category>BIOCHEMICAL</category>
+        <description>Measures blood levels of 25-hydroxyvitamin D to assess vitamin D status and help identify potential deficiency or excess.</description>
+        <requiredSampleType>BLOOD</requiredSampleType>
+    </test>
+</tests>

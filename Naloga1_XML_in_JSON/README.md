@@ -8,4 +8,4 @@ Podatki so razdeljeni v tri povezane XML dokumente:
 
 - `samples.xml` – podatki o laboratorijskih vzorcih.
 - `test_types.xml` – podatki o vrstah laboratorijskih testov.
-- `analyses.xml` – podatki o izvedbi analiz, njihovih statusih in kontroli kakovosti.
+- `analysis.xml` – podatki o izvedbi analiz, njihovih statusih in kontroli kakovosti.

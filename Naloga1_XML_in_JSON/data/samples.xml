@@ -75,7 +75,7 @@
     <sample id="SMP-2026-06078">
         <sampleType>BUCCAL_SWAB</sampleType>
         <collectionDate>11-10-2026</collectionDate>
-        <recivedDate>16-02-2026</recivedDate>
+        <recivedDate>16-10-2026</recivedDate>
         <status>RECEIVED</status>
     </sample>
     <sample id="SMP-2026-06079">
@@ -87,7 +87,7 @@
     <sample id="SMP-2026-06089">
         <sampleType>SALIVA</sampleType>
         <collectionDate>01-01-2026</collectionDate>
-        <recivedDate>NULL</recivedDate>
+        <recivedDate></recivedDate>
         <status>REGISTERED</status>
     </sample>
 </samples>

@@ -3,47 +3,47 @@
     <analysis id="AYS-2026-00001">
         <sampleId>SMP-2026-00001</sampleId>
         <testId>TST-005</testId>
-        <startDate>12-02-2026</startDate>
-        <completionDate>15-02-2026</completionDate>
+        <startDate>2026-02-12</startDate>
+        <completionDate>2026-02-15</completionDate>
         <status>COMPLETED</status>
         <qcResult>PASS</qcResult>
-        <reviewDate>16-02-2026</reviewDate>
+        <reviewDate>2026-02-16</reviewDate>
     </analysis>
     <analysis id="AYS-2026-00002">
         <sampleId>SMP-2026-00002</sampleId>
         <testId>TST-007</testId>
-        <startDate>13-02-2026</startDate>
-        <completionDate>16-02-2026</completionDate>
+        <startDate>2026-02-13</startDate>
+        <completionDate>2026-02-16</completionDate>
         <status>COMPLETED</status>
         <qcResult>PASS</qcResult>
-        <reviewDate>17-02-2026</reviewDate>
+        <reviewDate>2026-02-17</reviewDate>
     </analysis>
     <analysis id="AYS-2026-00003">
         <sampleId>SMP-2026-00004</sampleId>
         <testId>TST-004</testId>
-        <startDate>12-02-2026</startDate>
-        <completionDate>17-02-2026</completionDate>
+        <startDate>2026-02-12</startDate>
+        <completionDate>2026-02-17</completionDate>
         <status>COMPLETED</status>
         <qcResult>PASS</qcResult>
-        <reviewDate>18-02-2026</reviewDate>
+        <reviewDate>2026-02-18</reviewDate>
     </analysis>
     <analysis id="AYS-2026-00004">
         <sampleId>SMP-2026-00005</sampleId>
         <testId>TST-007</testId>
-        <startDate>13-02-2026</startDate>
-        <completionDate>16-02-2026</completionDate>
+        <startDate>2026-02-13</startDate>
+        <completionDate>2026-02-16</completionDate>
         <status>COMPLETED</status>
         <qcResult>PASS</qcResult>
-        <reviewDate>17-02-2026</reviewDate>
+        <reviewDate>2026-02-17</reviewDate>
     </analysis>
     <analysis id="AYS-2026-00005">
         <sampleId>SMP-2026-06071</sampleId>
         <testId>TST-005</testId>
-        <startDate>09-10-2026</startDate>
-        <completionDate>10-10-2026</completionDate>
+        <startDate>2026-10-09</startDate>
+        <completionDate>2026-10-10</completionDate>
         <status>FAILED</status>
         <qcResult>FAIL</qcResult>
-        <reviewDate>10-10-2026</reviewDate>
+        <reviewDate>2026-10-10</reviewDate>
     </analysis>
     <analysis id="AYS-2026-00006">
         <sampleId>SMP-2026-06072</sampleId>
@@ -57,7 +57,7 @@
     <analysis id="AYS-2026-00007">
         <sampleId>SMP-2026-06074</sampleId>
         <testId>TST-005</testId>
-        <startDate>13-10-2026</startDate>
+        <startDate>2026-10-13</startDate>
         <completionDate></completionDate>
         <status>QUALITY_CHECK</status>
         <qcResult>PENDING</qcResult>
@@ -66,7 +66,7 @@
     <analysis id="AYS-2026-00008">
         <sampleId>SMP-2026-06075</sampleId>
         <testId>TST-007</testId>
-        <startDate>13-10-2026</startDate>
+        <startDate>2026-10-13</startDate>
         <completionDate></completionDate>
         <status>IN_PROGRESS</status>
         <qcResult>NOT_TESTED</qcResult>
@@ -102,37 +102,37 @@
     <analysis id="AYS-2026-00012">
         <sampleId>SMP-2026-00001</sampleId>
         <testId>TST-005</testId>
-        <startDate>10-02-2026</startDate>
-        <completionDate>11-02-2026</completionDate>
+        <startDate>2026-02-10</startDate>
+        <completionDate>2026-02-11</completionDate>
         <status>FAILED</status>
         <qcResult>FAIL</qcResult>
-        <reviewDate>11-02-2026</reviewDate>
+        <reviewDate>2026-02-11</reviewDate>
     </analysis>
     <analysis id="AYS-2026-00013">
         <sampleId>SMP-2026-00002</sampleId>
         <testId>TST-007</testId>
-        <startDate>10-02-2026</startDate>
-        <completionDate>12-02-2026</completionDate>
+        <startDate>2026-02-10</startDate>
+        <completionDate>2026-02-12</completionDate>
         <status>FAILED</status>
         <qcResult>FAIL</qcResult>
-        <reviewDate>12-02-2026</reviewDate>
+        <reviewDate>2026-02-12</reviewDate>
     </analysis>
     <analysis id="AYS-2026-00014">
         <sampleId>SMP-2026-06071</sampleId>
         <testId>TST-005</testId>
-        <startDate>11-10-2026</startDate>
-        <completionDate>13-10-2026</completionDate>
+        <startDate>2026-10-11</startDate>
+        <completionDate>2026-10-13</completionDate>
         <status>COMPLETED</status>
         <qcResult>PASS</qcResult>
-        <reviewDate>14-10-2026</reviewDate>
+        <reviewDate>2026-10-14</reviewDate>
     </analysis>
     <analysis id="AYS-2026-00015">
         <sampleId>SMP-2026-06075</sampleId>
         <testId>TST-007</testId>
-        <startDate>11-10-2026</startDate>
-        <completionDate>12-10-2026</completionDate>
+        <startDate>2026-10-11</startDate>
+        <completionDate>2026-10-12</completionDate>
         <status>FAILED</status>
         <qcResult>FAIL</qcResult>
-        <reviewDate>12-10-2026</reviewDate>
+        <reviewDate>2026-10-12</reviewDate>
     </analysis>
 </analyses>

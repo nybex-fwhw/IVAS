@@ -26,7 +26,7 @@ public class LaboratoryService {
     private final XmlDataLoader loader;
     private final ValidationService validator;
 
-    private static void loadData(String fileName) {
+    public static void loadData(String fileName) {
         Document document = DataNormalizer.normalizeAll(XmlDataLoader.loadData(fileName));
 
         XmlDeserializer.deserialize(document);

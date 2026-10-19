@@ -9,6 +9,7 @@ public class DataNormalizer {
     }
 
     private static void normalizeNode(Node node) {
+        if(node == null) return;
         if (node.getNodeType() == Node.TEXT_NODE) {
             node.setNodeValue(normalize(node.getNodeValue()));
         }

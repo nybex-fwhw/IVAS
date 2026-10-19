@@ -1,14 +1,16 @@
 package com.labtrack;
 
+/*
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
+*/
 import java.util.Objects;
 
-public class LabTrackApp extends Application{
+public class LabTrackApp /*extends Application*/{
+    /*
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/labtrack/fxml/main-view.fxml"));
@@ -24,8 +26,9 @@ public class LabTrackApp extends Application{
         stage.setMinHeight(600);
         stage.show();
     }
-
+*/
     public static void main(String[] args) {
-        launch(args);
+        //launch(args);
     }
+
 }

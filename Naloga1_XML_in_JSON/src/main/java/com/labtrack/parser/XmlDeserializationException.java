@@ -8,8 +8,7 @@ public class XmlDeserializationException
     }
 
     public XmlDeserializationException(
-            String message,
-            Throwable cause
+            String message, Throwable cause
     ) {
         super(message, cause);
     }

@@ -2,9 +2,9 @@ package com.labtrack.service.validation;
 
 import java.util.List;
 
-public record ValidationError(List<String> errors) {
+public record ValidationResult(List<String> errors) {
 
-    public ValidationError {
+    public ValidationResult {
         errors = List.copyOf(errors);
     }
 

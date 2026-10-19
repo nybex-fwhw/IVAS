@@ -6,5 +6,5 @@ public enum AnalysisStatus {
     QUALITY_CHECK,          // Preverja se kakovost izvedene analize oz. pridobljenih podatkov
     COMPLETED,              // Analiza je uspesno zakljucena
     FAILED,                 // Analize ne bilo mogoce uspesno zakljuciti
-    CANCELED,               // Analiza je bila preklicana
+    CANCELLED,              // Analiza je bila preklicana
 }

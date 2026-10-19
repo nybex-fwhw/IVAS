@@ -1,36 +1,47 @@
+
 package com.labtrack.model;
 
-import com.labtrack.model.enums.AnalysisStatus;
-import com.labtrack.model.enums.QcResult;
-import com.labtrack.model.enums.SampleType;
-import com.labtrack.model.enums.TestCategory;
-
+import com.labtrack.model.enums.*;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 
-import java.util.UUID;
+import java.time.LocalDate;
 
 @Getter
-//@RequiredArgsConstructor
 public class AnalysisView {
 
     private final String analysisId;
     private final String sampleId;
     private final SampleType sampleType;
 
+    private final String testId;
     private final String testName;
     private final TestCategory category;
+
+    private final LocalDate startDate;
+    private final LocalDate completionDate;
+    private final LocalDate reviewDate;
 
     private final AnalysisStatus status;
     private final QcResult qcResult;
 
-    public AnalysisView(String analysisId, String sampleId, SampleType sampleType, String testName, TestCategory category, AnalysisStatus status, QcResult qcResult) {
-        this.analysisId = analysisId;
-        this.sampleId = sampleId;
-        this.sampleType = sampleType;
-        this.testName = testName;
-        this.category = category;
-        this.status = status;
-        this.qcResult = qcResult;
+    public AnalysisView(
+            Analysis analysis,
+            Sample sample,
+            TestType testType
+    ) {
+        this.analysisId = analysis.getAnalysisId();
+        this.sampleId = sample.getSampleId();
+        this.sampleType = sample.getSampleType();
+
+        this.testId = testType.getTestId();
+        this.testName = testType.getTestName();
+        this.category = testType.getTestCategory();
+
+        this.startDate = analysis.getStartDate();
+        this.completionDate = analysis.getCompletionDate();
+        this.reviewDate = analysis.getReviewDate();
+
+        this.status = analysis.getAnalysisStatus();
+        this.qcResult = analysis.getQcResult();
     }
 }

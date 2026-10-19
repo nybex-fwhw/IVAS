@@ -1,0 +1,25 @@
+[ {
+  "analysisId" : "AYS-2026-00005",
+  "sampleId" : "SMP-2026-06071",
+  "sampleType" : "SALIVA",
+  "testId" : "TST-005",
+  "testName" : "Oral Microbiome Analysis",
+  "category" : "MICROBIOME",
+  "startDate" : "2026-10-09",
+  "completionDate" : "2026-10-10",
+  "reviewDate" : "2026-10-10",
+  "status" : "FAILED",
+  "qcResult" : "FAIL"
+}, {
+  "analysisId" : "AYS-2026-00012",
+  "sampleId" : "SMP-2026-00001",
+  "sampleType" : "SALIVA",
+  "testId" : "TST-005",
+  "testName" : "Oral Microbiome Analysis",
+  "category" : "MICROBIOME",
+  "startDate" : "2026-02-10",
+  "completionDate" : "2026-02-11",
+  "reviewDate" : "2026-02-11",
+  "status" : "FAILED",
+  "qcResult" : "FAIL"
+} ]

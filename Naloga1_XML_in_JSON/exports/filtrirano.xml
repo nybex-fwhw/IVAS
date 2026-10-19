@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<analyses>
+    <analysis id="AYS-2026-00005">
+        <sampleId>SMP-2026-06071</sampleId>
+        <sampleType>SALIVA</sampleType>
+        <testId>TST-005</testId>
+        <testName>Oral Microbiome Analysis</testName>
+        <category>MICROBIOME</category>
+        <startDate>2026-10-09</startDate>
+        <completionDate>2026-10-10</completionDate>
+        <reviewDate>2026-10-10</reviewDate>
+        <status>FAILED</status>
+        <qcResult>FAIL</qcResult>
+    </analysis>
+    <analysis id="AYS-2026-00012">
+        <sampleId>SMP-2026-00001</sampleId>
+        <sampleType>SALIVA</sampleType>
+        <testId>TST-005</testId>
+        <testName>Oral Microbiome Analysis</testName>
+        <category>MICROBIOME</category>
+        <startDate>2026-02-10</startDate>
+        <completionDate>2026-02-11</completionDate>
+        <reviewDate>2026-02-11</reviewDate>
+        <status>FAILED</status>
+        <qcResult>FAIL</qcResult>
+    </analysis>
+</analyses>

@@ -1,64 +1,43 @@
 package com.labtrack.controller;
 
-import com.labtrack.model.Analysis;
-import com.labtrack.model.Sample;
-import com.labtrack.model.TestType;
-import com.labtrack.parser.DeserializationResult;
-import com.labtrack.parser.XmlDataLoader;
-import com.labtrack.parser.XmlDeserializer;
 import com.labtrack.service.LaboratoryService;
 import com.labtrack.service.validation.ValidationResult;
 import com.labtrack.service.validation.ValidationService;
-import org.w3c.dom.Document;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
+import java.nio.file.Path;
 
 public class MainController {
-    public static void loadData() {
-        XmlDataLoader loader = new XmlDataLoader();
-        ValidationService validator = new ValidationService();
 
-        LaboratoryService service = new LaboratoryService(loader, validator);
+    private final LaboratoryService service =
+            new LaboratoryService(new ValidationService());
 
-        Document documentSamples = XmlDataLoader.loadData("/home/nybex/Documents/FERI/5-semester/TIIDS/project/IVAS/Naloga1_XML_in_JSON/data/samples.xml");
-        Document documentTestTypes = XmlDataLoader.loadData("/home/nybex/Documents/FERI/5-semester/TIIDS/project/IVAS/Naloga1_XML_in_JSON/data/test_types.xml");
-        Document documentAnalysis = XmlDataLoader.loadData("/home/nybex/Documents/FERI/5-semester/TIIDS/project/IVAS/Naloga1_XML_in_JSON/data/analysis.xml");
+    public void loadData() {
 
-        DeserializationResult resultSamples = XmlDeserializer.deserialize(documentSamples);
-        DeserializationResult resultTestTypes = XmlDeserializer.deserialize(documentTestTypes);
-        DeserializationResult resultAnalysis = XmlDeserializer.deserialize(documentAnalysis);
-
-        if (!(resultSamples instanceof DeserializationResult.Samples s)) {
-            throw new IllegalStateException("Expected samples XML.");
-        }
-
-        if (!(resultTestTypes instanceof DeserializationResult.Tests t)) {
-            throw new IllegalStateException("Expected tests XML.");
-        }
-
-        if (!(resultAnalysis instanceof DeserializationResult.Analyses a)) {
-            throw new IllegalStateException("Expected analyses XML.");
-        }
-
-        List<Sample> samples = s.values();
-        List<TestType> testTypes = t.values();
-        List<Analysis> analyses = a.values();
-
-        ValidationResult result = validator.validate(
-                samples,
-                testTypes,
-                analyses
+        ValidationResult result = service.loadData(
+                Path.of("data")
         );
 
-        if (result.isValid()) {
-            System.out.println("Validation successful!");
-        } else {
-            System.err.println("Validation failed:");
-
+        if (!result.isValid()) {
+            System.err.println("Loading failed:");
             result.errors().forEach(System.err::println);
+            return;
         }
 
+        System.out.println("Data loaded successfully!");
+        System.out.println("Samples: " + service.getSamples().size());
+        System.out.println("Tests: " + service.getTestTypes().size());
+        System.out.println("Analyses: " + service.getAnalyses().size());
+        System.out.println("Views: " + service.getAnalysisViews().size());
+
+        service.getAnalysisViews().forEach(view ->
+                System.out.printf(
+                        "%s | %s | %s | %s | %s%n",
+                        view.getAnalysisId(),
+                        view.getSampleType(),
+                        view.getTestName(),
+                        view.getStatus(),
+                        view.getQcResult()
+                )
+        );
     }
 }

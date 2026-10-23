@@ -69,6 +69,10 @@ Predvidena implementacija: Java 25 (Eclipse Temurin), Spring Boot 4.x, Lombok, O
 
 ## Status projekta
 
+Naloga 2: samostojni ARES HTML parser, navodila za zagon in dejanski rezultati preverjanja so v
+[`docs/Naloga2_Spletni_Parser.md`](docs/Naloga2_Spletni_Parser.md#14-implementacija-in-preverjanje-23-10-2026).
+Parser je preverjen na uradnem izrisanem DOM-u ARES; dokumentacija vsebuje Maven ukaze in dejanske rezultate testov.
+
 Projekt je v fazi načrtovanja in začetne implementacije. Zunanje storitve so bile preliminarno preverjene z ročnimi HTTP zahtevki; celoten integracijski tok še ni implementiran.
 
 Za razvoj in demonstracijo so predvideni sintetični UBL računi ter javno dostopni registrski podatki.

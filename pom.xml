@@ -41,6 +41,19 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- Naloga 2: HTML web scraping -->
+		<dependency>
+			<groupId>com.microsoft.playwright</groupId>
+			<artifactId>playwright</artifactId>
+			<version>1.64.0</version>
+		</dependency>
+
+		<!-- Naloga 2: JSON export -->
+		<dependency>
+			<groupId>tools.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+
 		<!-- Source: https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
